@@ -1,0 +1,5 @@
+MYSQL_HOST: mysql.parijathapractice.online
+MYSQL_USER: root
+MYSQL_PASSWORD: ExpenseApp@1
+App_LOCATION: /app
+COMPONENT: backend
