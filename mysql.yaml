@@ -1,7 +1,7 @@
-- name: configure mysql server
+- name: configuring MySQL server
   hosts: mysql
   become: yes
-  vars_files:
-  - roles/mysql/vars/main.yaml
+  # vars_files:
+  # - roles/mysql/vars/vault.yaml
   roles:
   - mysql
