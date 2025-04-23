@@ -16,11 +16,11 @@
   ansible.builtin.user:
     name: expense
 
-- name: unzip backend code
-  ansible.builtin.unarchive:
-    src: /tmp/backend.zip
-    dest: /app
-    remote_src: yes
+# - name: unzip backend code
+#   ansible.builtin.unarchive:
+#     src: /tmp/backend.zip
+#     dest: /app
+#     remote_src: yes
 
 - name: Install dependencies
   # tags: 
